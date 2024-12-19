@@ -3,7 +3,7 @@
 // Page présentant les réalisations
 const Portfolio = () => {
   return (
-    <main className="d-flex flex-column justify-content-center align-items-center">
+    <main className="MainPorteFolio d-flex flex-column justify-content-center align-items-center">
       {/* Titre principal de la page */}
       <h1>Portfolio</h1>
       {/* Texte décrivant le contenu du portfolio */}
