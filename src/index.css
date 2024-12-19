@@ -3,7 +3,7 @@ h1 {
     line-height: 1.1;
   }
 
-/*Element du footer*/
+/* *//*Element du footer*//* */
 footer h1 {
     font-size: 1.6em;
     line-height: 1.1;
@@ -22,7 +22,7 @@ footer {
     background-color: #343a40; /* Fond sombre */
 }
 
-/*Element de Home*/
+/* *//*Element de Home*//* */
 .responsive-width {
   width: 50%; /* Par défaut, largeur à 50% */
 
@@ -90,7 +90,8 @@ footer {
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2); /* Ombre interne pour la partie vide */
 }
 
-/*Element de Portfolio */
+/* *//*Element de Portfolio *//* */
+
 .ContenairCardPortefolio {
 
   /* Pour les écrans de moins de 768px */
@@ -100,7 +101,48 @@ footer {
   }
 }
 
+/*ligne en dessous de h1*/
 .MainPorteFolio h1::after {
+  content: "";
+  display: block;
+  width: 100%; /* Ajuste la largeur de la ligne */
+  height: 4px; /* Hauteur de la ligne */
+  background-color: #0d6efd ; /* Couleur de la ligne */
+  margin: 8px auto 0 auto; /* Espace autour de la ligne */  
+  border-radius: 2px; /* Arrondit les coins de la ligne */
+}
+
+/* *//*Element de Blog *//* */
+.ContenairBlog {
+
+  /* Pour les écrans de moins de 768px */
+  @media (max-width: 768px) {
+    flex-direction:column;
+    align-items: center; /* Passe  en dessous de 768px */
+  }
+}
+
+.MainBlog h1::after {
+  content: "";
+  display: block;
+  width: 100%; /* Ajuste la largeur de la ligne */
+  height: 4px; /* Hauteur de la ligne */
+  background-color: #0d6efd ; /* Couleur de la ligne */
+  margin: 8px auto 0 auto; /* Espace autour de la ligne */  
+  border-radius: 2px; /* Arrondit les coins de la ligne */
+}
+
+/* *//*Element de Services *//* */
+.ContenairServices {
+
+  /* Pour les écrans de moins de 768px */
+  @media (max-width: 768px) {
+    flex-direction:column;
+    align-items: center; /* Passe  en dessous de 768px */
+  }
+}
+
+.MainServices h1::after {
   content: "";
   display: block;
   width: 100%; /* Ajuste la largeur de la ligne */
