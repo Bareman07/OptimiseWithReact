@@ -8,7 +8,6 @@ import Footer from './components/Footer'; // Pied de page
 
 // Importation des pages
 import Home from './pages/Home'; // Page d'accueil
-import About from './pages/About'; // Page À propos
 import Services from './pages/Services'; // Page Services
 import Portfolio from './pages/Portfolio'; // Page Réalisations
 import Blog from './pages/Blog'; // Page Blog
@@ -30,7 +29,6 @@ const App = () => {
       <Routes>
         {/* Déclare les différentes routes */}
         <Route path="/" element={<Home />} /> {/* Route pour la page d'accueil */}
-        <Route path="/about" element={<About />} /> {/* Route pour la page À propos */}
         <Route path="/services" element={<Services />} /> {/* Route pour la page Services */}
         <Route path="/portfolio" element={<Portfolio />} /> {/* Route pour la page Réalisations */}
         <Route path="/blog" element={<Blog />} /> {/* Route pour la page Blog */}

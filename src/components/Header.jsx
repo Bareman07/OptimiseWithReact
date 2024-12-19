@@ -43,8 +43,8 @@ const Header = () => {
 
               {/* Lien vers la page À propos */}
               <li className="nav-item">
-                <a className="nav-link" href="/about">
-                  À propos
+                <a className="nav-link" href="/Blog">
+                  Blog
                 </a>
               </li>
 

@@ -46,8 +46,8 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="/about" className="text-white">
-                  À propos
+                <a href="/Blog" className="text-white">
+                  Blog
                 </a>
               </li>
               <li>
