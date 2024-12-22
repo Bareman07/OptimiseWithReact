@@ -1,4 +1,4 @@
-
+import './Portfolio.css';
 
 // Page présentant les réalisations
 const Portfolio = () => {

@@ -1,4 +1,4 @@
-
+import './MentionLegales.css';
 
 // Page des mentions légales
 const MentionLegales = () => {

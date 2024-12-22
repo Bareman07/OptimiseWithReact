@@ -2,6 +2,7 @@
 // Pas besoin d'importer React à partir de React 17 si non utilisé directement
 import favicon from '../assets/img/Favicon.png'; // Importation de l'image
 import { Link } from 'react-router-dom'; // Importation de la fonction de routage
+import './Header.css';
 
 // Le composant Header : barre de navigation qui s'affiche en haut de chaque page.
 const Header = () => {

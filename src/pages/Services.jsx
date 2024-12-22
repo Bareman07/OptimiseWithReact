@@ -1,4 +1,4 @@
-
+import './Services.css';
 
 // Page des services proposés
 const Services = () => {

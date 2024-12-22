@@ -1,4 +1,4 @@
-
+import './Contact.css';
 
 // Page de contact avec un formulaire
 const Contact = () => {

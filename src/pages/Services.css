@@ -1,0 +1,19 @@
+/* *//*Element de Services *//* */
+.ContenairServices {
+
+    /* Pour les écrans de moins de 768px */
+    @media (max-width: 768px) {
+      flex-direction:column;
+      align-items: center; /* Passe  en dessous de 768px */
+    }
+  }
+  
+  .MainServices h1::after {
+    content: "";
+    display: block;
+    width: 100%; /* Ajuste la largeur de la ligne */
+    height: 4px; /* Hauteur de la ligne */
+    background-color: #0d6efd ; /* Couleur de la ligne */
+    margin: 8px auto 0 auto; /* Espace autour de la ligne */  
+    border-radius: 2px; /* Arrondit les coins de la ligne */
+  }

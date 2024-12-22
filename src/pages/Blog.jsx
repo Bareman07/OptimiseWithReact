@@ -1,4 +1,4 @@
-
+import './Blog.css';
 
 // Page de blog
 const Blog = () => {
@@ -12,29 +12,29 @@ const Blog = () => {
       <div className="ContenairBlog d-flex justify-content-center"r style={{ width: '100%' }}>
         <div className="card mx-4 my-4" style={{ width: '18rem' }}>
             {/* Image de la card1 */}
-            <img src="https://via.placeholder.com/150" className="card-img-top" alt="Image de la card" />
+            <img src="" className="card-img-top" alt="Image de la card" />
         </div>
         <div className="card mx-4 my-4" style={{ width: '18rem' }}>
             {/* Image de la card2 */}
-            <img src="https://via.placeholder.com/150" className="card-img-top" alt="Image de la card" />
+            <img src="" className="card-img-top" alt="Image de la card" />
         </div>
         <div className="card mx-4 my-4" style={{ width: '18rem' }}>
             {/* Image de la card3 */}
-            <img src="https://via.placeholder.com/150" className="card-img-top" alt="Image de la card" />
+            <img src="" className="card-img-top" alt="Image de la card" />
         </div>
       </div>
       <div className="ContenairBlog d-flex justify-content-center"r style={{ width: '100%' }}>
         <div className="card mx-4 my-4" style={{ width: '18rem' }}>
             {/* Image de la card1 */}
-            <img src="https://via.placeholder.com/150" className="card-img-top" alt="Image de la card" />
+            <img src="" className="card-img-top" alt="Image de la card" />
         </div>
         <div className="card mx-4 my-4" style={{ width: '18rem' }}>
             {/* Image de la card2 */}
-            <img src="https://via.placeholder.com/150" className="card-img-top" alt="Image de la card" />
+            <img src="" className="card-img-top" alt="Image de la card" />
         </div>
         <div className="card mx-4 my-4" style={{ width: '18rem' }}>
             {/* Image de la card3 */}
-            <img src="https://via.placeholder.com/150" className="card-img-top" alt="Image de la card" />
+            <img src="" className="card-img-top" alt="Image de la card" />
         </div>
       </div>
     </main>

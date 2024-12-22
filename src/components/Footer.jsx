@@ -1,6 +1,8 @@
 import github from '../assets/img/github.png'; // Importation de l'image
 import twitter from '../assets/img/twitter.png';
 import linkedin from '../assets/img/linkedin.png';
+import './Footer.css';
+
 
 const Footer = () => {
   return (
