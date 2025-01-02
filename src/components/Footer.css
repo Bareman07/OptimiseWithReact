@@ -11,7 +11,7 @@ footer {
   }
 
 #copyright {
-    width: 100vw; /* Prend toute la largeur de la fenêtre */
+    /* width: 100vw; Prend toute la largeur de la fenêtre */
    /* height: 100vh; /* Prend toute la hauteur de la fenêtre */
     margin: 0; /* Supprime les marges par défaut */
     background-color: #343a40; /* Fond sombre */

@@ -1,5 +1,6 @@
 import Accueil from '../assets/img/Accueil_fond_john_doe.jpeg'; // Importation de l'image
 import Bureau from '../assets/img/travail_bureau.jpeg';
+import './Blog.css'; // Importation du fichier CSS pour appliquer les styles au composant
 
 // Page d'accueil du site
 const Home = () => {
@@ -21,11 +22,11 @@ const Home = () => {
         </div>
         <div className="container my-5">
             <div className="row shadow  g-3"> {/* Container article */}
-                <div id="PartieGauche" className="px-4 col-12 col-md-6 d-flex flex-column"> {/* partie de gauche */}
-                    <h1>Salut</h1>
+                <div className="px-4 col-12 col-md-6 d-flex flex-column"> {/* partie de gauche */}
+                    <h2 className="LigneBleu">Salut</h2>
                     <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Senectus tortor quam odio feugiat nibh, aptent libero hendrerit? Convallis nascetur inceptos torquent bibendum donec risus. Conubia facilisis vivamus ipsum ipsum efficitur penatibus lacinia. Est eros litora malesuada purus consequat eros.</p>
                 </div>
-                <div id="PartieDroite" className="d-flex align-items-center flex-column responsive-width" >  {/* partie de droite */}
+                <div className="d-flex align-items-center flex-column responsive-width" >  {/* partie de droite */}
                     <div style={{
                         backgroundImage: `url(${Bureau})`,
                         backgroundPosition: "center", // Centre l'image
@@ -35,7 +36,7 @@ const Home = () => {
                         width: "100%"
                         }}>
                     </div>   
-                    <h1>Mes Acquis</h1>
+                    <h2>Mes Acquis</h2>
 
                     {/* Barre de progression 1 */}
                     <div className="BarProgression bar-container mb-3">

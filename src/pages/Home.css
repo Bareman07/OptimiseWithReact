@@ -1,4 +1,9 @@
-/* *//*Element de Blog *//* */
+/* *//*Element de Home *//* */
+
+h1 {
+    width: 100%;
+}
+
 .ContenairBlog {
 
     /* Pour les écrans de moins de 768px */

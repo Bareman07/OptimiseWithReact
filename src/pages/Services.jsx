@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <main className="MainServices d-flex flex-column justify-content-center align-items-center">
       {/* Titre principal de la page */}
-      <h1>Services</h1>
+      <h1 className="LigneBleu">Services</h1>
       {/* Texte décrivant le contenu du Services */}
       <p>Je propose des services de développement web, de conception UI/UX, et d&apos;optimisation SEO.</p>
       {/* Conteneur flex pour centrer les cartes */}

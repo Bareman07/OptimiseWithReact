@@ -5,7 +5,7 @@ const Portfolio = () => {
   return (
     <main className="MainPorteFolio d-flex flex-column justify-content-center align-items-center">
       {/* Titre principal de la page */}
-      <h1>Portfolio</h1>
+      <h1 className="LigneBleu">Portfolio</h1>
       {/* Texte décrivant le contenu du portfolio */}
       <p>Découvrez mes projets récents, allant d&apos;applications React à des sites web responsives.</p>
       {/* Conteneur flex pour centrer les cartes */}

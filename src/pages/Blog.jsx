@@ -5,7 +5,7 @@ const Blog = () => {
   return (
     <main className="MainBlog d-flex flex-column justify-content-center align-items-center">
       {/* Titre principal de la page */}
-      <h1>Blog</h1>
+      <h1 className="LigneBleu">Blog</h1>
       {/* Texte décrivant le contenu du Blog */}
       <p>Bienvenue sur mon blog. Découvrez mes articles sur le développement web et les technologies modernes.</p>
       {/* Conteneur flex pour centrer les cartes */}
