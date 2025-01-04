@@ -6,13 +6,13 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    // Footer avec une background sombre et du texte blanc
-    <footer className="bg-secondary text-dark mt-4">
+    // Footer
+    <footer className="FondFooter mt-4">
       <div className="container py-4">
         <div className="row">
           {/* Colonne 1 : informations de contact avec icônes vers les réseaux sociaux */}
           <div className="col-md-3">
-            <h5>John Doe</h5>
+            <h4>John Doe</h4>
             <p>
               123 rue de Paris<br />
               75000 Paris<br />
@@ -39,31 +39,31 @@ const Footer = () => {
 
           {/* Colonne 2 : liens vers les pages principales */}
           <div className="col-md-3">
-            <h1>Liens Utiles</h1>
+            <h4>Liens Utiles</h4>
             {/* Liste de liens vers les pages principales */}
             <ul className="list-unstyled">
               <li>
-                <a href="/" className="text-white">
+                <a href="/" className="text-dark">
                   Accueil
                 </a>
               </li>
               <li>
-                <a href="/Blog" className="text-white">
+                <a href="/Blog" className="text-dark">
                   Blog
                 </a>
               </li>
               <li>
-                <a href="/services" className="text-white">
+                <a href="/services" className="text-dark">
                   Services
                 </a>
               </li>
               <li>
-                <a href="/contact" className="text-white">
+                <a href="/contact" className="text-dark">
                   Me contacter
                 </a>
               </li>
               <li>
-                <a href="/legal" className="text-white">
+                <a href="/mention-legales" className="text-dark">
                   Mentions Légales
                 </a>
               </li>
@@ -72,21 +72,21 @@ const Footer = () => {
 
           {/* Colonne 3 : réalisations récentes */}
           <div className="col-md-3">
-            <h1>Mes Dernières Réalisations</h1>
+            <h4>Mes Dernières Réalisations</h4>
             {/* Liste des réalisations avec liens vers chaque projet */}
             <ul className="list-unstyled">
               <li>
-                <a href="/portfolio#project1" className="text-white">
+                <a href="/portfolio#project1" className="text-dark">
                   Réalisation 1
                 </a>
               </li>
               <li>
-                <a href="/portfolio#project2" className="text-white">
+                <a href="/portfolio#project2" className="text-dark">
                   Réalisation 2
                 </a>
               </li>
               <li>
-                <a href="/portfolio#project3" className="text-white">
+                <a href="/portfolio#project3" className="text-dark">
                   Réalisation 3
                 </a>
               </li>
@@ -95,21 +95,21 @@ const Footer = () => {
 
           {/* Colonne 4 : derniers articles */}
           <div className="col-md-3">
-            <h1>Mes Derniers Articles</h1>
+            <h4>Mes Derniers Articles</h4>
             {/* Liste des articles récents avec liens vers chaque article */}
             <ul className="list-unstyled">
               <li>
-                <a href="/blog#article1" className="text-white">
+                <a href="/blog#article1" className="text-dark">
                   Article 1
                 </a>
               </li>
               <li>
-                <a href="/blog#article2" className="text-white">
+                <a href="/blog#article2" className="text-dark">
                   Article 2
                 </a>
               </li>
               <li>
-                <a href="/blog#article3" className="text-white">
+                <a href="/blog#article3" className="text-dark">
                   Article 3
                 </a>
               </li>
@@ -118,12 +118,12 @@ const Footer = () => {
         </div>
       </div>
       {/* Copyright et lien pour remonter en haut de la page */}
-      <div id="copyright" className="text-center text-white mt-3">
-          <p>© 2024 John Doe. Tous droits réservés.</p>
-          <a href="#top" className="text-white m-10">
+      <div className="copyright text-center text-white mt-3">
+        <p>© 2024 John Doe. Tous droits réservés.</p>
+        <a href="#top" className="text-white m-10">
             Retour en haut
-          </a>
-        </div>
+        </a>
+      </div>
     </footer>
   );
 };

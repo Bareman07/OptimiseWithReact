@@ -7,7 +7,6 @@ const Contact = () => {
       {/* Conteneur principal */}
       <div className="container">
         <div className="row">
-          {/* Titre principal */}
           <div className="d-flex justify-content-center">
             {/* Titre principal */}
             <h1 className="mb-4">Me Contacter</h1>

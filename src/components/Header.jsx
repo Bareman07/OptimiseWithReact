@@ -10,7 +10,7 @@ const Header = () => {
     // Header contenant la barre de navigation
     <header>
       {/* Navigation avec Bootstrap */}
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="FondHeader navbar navbar-expand-lg navbar-dark">
          {/* container-fluid permet à la barre de navigation de s'étendre sur toute la largeur */}
         <div className="container-fluid">
           {/* Logo ou nom de la marque qui renvoie à la page d'accueil */}

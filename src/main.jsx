@@ -9,6 +9,7 @@ import './index.css';
 // Importation du composant principal App à partir du fichier App.jsx
 import App from './App.jsx';
 
+
 // Créer un "root" React dans l'élément HTML avec l'id 'root' et y rendre l'application
 createRoot(document.getElementById('root')).render(
   // Utilisation de StrictMode pour activer des vérifications en mode développement

@@ -4,15 +4,24 @@ footer h1 {
     line-height: 1.1;
   }
 
+  footer h4 {
+    font-size: 1.3em;
+    line-height: 1.1;
+  }
+
 footer {
     margin: 0;
     padding: 0;
     width: 100%; /* Remplit toute la largeur */
   }
 
-#copyright {
+.copyright {
     /* width: 100vw; Prend toute la largeur de la fenêtre */
    /* height: 100vh; /* Prend toute la hauteur de la fenêtre */
     margin: 0; /* Supprime les marges par défaut */
-    background-color: #343a40; /* Fond sombre */
+    background-color: #1e1e1e ; /* Fond sombre */
+}
+
+.FondFooter {
+    background-color: #EEE ; /* Fond sombre */
 }
