@@ -1,5 +1,6 @@
 import './MentionLegales.css';
 import { Accordion } from 'react-bootstrap';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const MentionLegales = () => {
   return (
@@ -15,16 +16,16 @@ const MentionLegales = () => {
           <Accordion.Body>
             <h2 className="mb-3">John Doe</h2>
             <div className="d-flex align-items-center mb-1">
-              <div className="material-icons me-1">location_on</div>
+            <i className="fa-solid fa-location-dot me-1"></i>
               <p>40 Rue Laure Diebold</p>
             </div>
             <p>69009 Lyon, France</p>
             <div className="d-flex align-items-center mb-1">
-              <div className="material-icons me-1">smartphone</div>
+              <i className="fa-solid fa-mobile-screen me-1"></i>
               <a href="tel:+33620304050">06 20 30 40 50</a>
             </div>
             <div className="d-flex align-items-center mb-1">
-              <div className="material-icons me-1">mail</div>
+              <i className="fa-solid fa-envelope me-1"></i>
               <a href="mailto:john.doe@gmail.com">john.doe@gmail.com</a>
             </div>
           </Accordion.Body>
@@ -38,7 +39,7 @@ const MentionLegales = () => {
             <p>123 Avenue du Web</p>
             <p>75000 Paris, France</p>
             <div className="d-flex align-items-center mb-1 mt-3">
-              <div className="material-icons me-1">language</div>
+            <i className="fa-solid fa-globe me-1"></i>
               <a href="https://www.alwaysdata.com/fr/" target="_blank" rel="noopener noreferrer" className="text-decoration-none ">
                 www.alwaysdata.com
               </a>

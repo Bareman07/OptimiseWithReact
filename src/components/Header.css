@@ -1,3 +1,15 @@
 .FondHeader {
   background-color: #1e1e1e ;
 }
+
+.custom-hover:hover {
+  text-decoration: none; /* Supprime la soulignure */
+  transition: color 0.3s ease; /* Animation fluide */
+  color: rgba(255, 255, 255, 0.8); /* Blanc avec transparence */
+}
+
+/* Styles pour le lien actif */
+.active-link {
+  color: white; /* Couleur personnalisée pour le lien actif */
+  font-weight: bold; /* Rend le lien actif plus visible */
+}

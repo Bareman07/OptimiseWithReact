@@ -1,6 +1,7 @@
 // Importation des styles Bootstrap
 // Pas besoin d'importer React à partir de React 17 si non utilisé directement
 import favicon from '../assets/img/Favicon.png'; // Importation de l'image
+import { NavLink } from "react-router-dom";
 import { Link } from 'react-router-dom'; // Importation de la fonction de routage
 import './Header.css';
 
@@ -14,7 +15,7 @@ const Header = () => {
          {/* container-fluid permet à la barre de navigation de s'étendre sur toute la largeur */}
         <div className="container-fluid">
           {/* Logo ou nom de la marque qui renvoie à la page d'accueil */}
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand me-3" to="/">
             <img src={favicon} alt="Favicon" style={{ width: '30px', height: '30px' }} />
             John Doe
           </Link>
@@ -37,38 +38,63 @@ const Header = () => {
             <ul className="navbar-nav ms-auto">
               {/* Lien vers la page d'accueil */}
               <li className="nav-item">
-                <a className="nav-link active" href="/">
-                  Accueil
-                </a>
-              </li>
+                <NavLink
+                  to="/"
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active-link" : "nav-link"
+                  }
+                >
+                ACCUEIL
+                </NavLink>
+             </li>
 
-              {/* Lien vers la page À propos */}
+              {/* Lien vers la page Blog */}
               <li className="nav-item">
-                <a className="nav-link" href="/Blog">
-                  Blog
-                </a>
-              </li>
+                <NavLink
+                  to="/blog"
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active-link" : "nav-link"
+                  }
+                >
+                BLOG
+                </NavLink>
+             </li>
 
               {/* Lien vers la page Services */}
               <li className="nav-item">
-                <a className="nav-link" href="/services">
-                  Services
-                </a>
-              </li>
+                <NavLink
+                  to="/services"
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active-link" : "nav-link"
+                  }
+                >
+                SERVICES
+                </NavLink>
+             </li>
 
               {/* Lien vers la page Réalisations */}
               <li className="nav-item">
-                <a className="nav-link" href="/portfolio">
-                  Réalisations
-                </a>
-              </li>
+                <NavLink
+                  to="/portfolio"
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active-link" : "nav-link"
+                  }
+                >
+                RÉALISATIONS
+                </NavLink>
+             </li>
 
               {/* Lien vers la page Contact */}
               <li className="nav-item">
-                <a className="nav-link" href="/contact">
-                  Contact
-                </a>
-              </li>
+                <NavLink
+                  to="/contact"
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active-link" : "nav-link"
+                  }
+                >
+                CONTACT
+                </NavLink>
+             </li>
             </ul>
           </div>
         </div>
