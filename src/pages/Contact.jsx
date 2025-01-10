@@ -74,11 +74,13 @@ const Contact = () => {
               <div className="LigneBleu w-100"></div>
             </div>
             {/* Coordonnées */}
-            <ul className="list-unstyled text-start">
-              <li><strong>Adresse :</strong> 123 Rue Exemple, 75000 Paris</li>
-              <li><strong>Téléphone :</strong> +33 6 12 34 56 78</li>
-              <li><strong>Email :</strong> contact@example.com</li>
-            </ul>
+            <div className="w-100">
+              <ul className="list-unstyled text-start">
+                <li><strong>Adresse :</strong> 123 Rue Exemple, 75000 Paris</li>
+                <li><strong>Téléphone :</strong> +33 6 12 34 56 78</li>
+                <li><strong>Email :</strong> contact@example.com</li>
+              </ul>
+            </div>
 
             {/* Google Maps */}
             <div className="map-container mt-4" style={{ width: '100%', height: '300px' }}>

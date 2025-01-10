@@ -2,7 +2,7 @@ import Accueil from '../assets/img/Accueil_fond_john_doe.jpeg'; // Importation d
 import Bureau from '../assets/img/travail_bureau.jpeg';
 import './Blog.css'; // Importation du fichier CSS pour appliquer les styles au composant
 
-// Page d'accueil du site
+// Page d'accueil
 const Home = () => {
   return (
     <main>
@@ -17,7 +17,12 @@ const Home = () => {
         }}>
             <div className='container my-5'>
                 <h1 className="text-white">Bienvenue sur mon site</h1>
-                <button className="btn btn-primary mt-3">En savoir plus</button>
+                <button
+                className="btn btn-primary mt-3"
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                >
+                    En savoir plus
+                </button>
             </div>
         </div>
         <div className="container my-5">
