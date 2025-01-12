@@ -76,17 +76,17 @@ const Footer = () => {
             <ul className="list-unstyled">
               <li>
                 <a href="/portfolio#project1" className="text-dark">
-                  Réalisation 1
+                  Fresh food
                 </a>
               </li>
               <li>
                 <a href="/portfolio#project2" className="text-dark">
-                  Réalisation 2
+                  Restaurant Akira
                 </a>
               </li>
               <li>
                 <a href="/portfolio#project3" className="text-dark">
-                  Réalisation 3
+                  Esapce bien-être
                 </a>
               </li>
             </ul>
@@ -99,17 +99,17 @@ const Footer = () => {
             <ul className="list-unstyled">
               <li>
                 <a href="/blog#article1" className="text-dark">
-                  Article 1
+                  Coder son site en HTML/CSS
                 </a>
               </li>
               <li>
                 <a href="/blog#article2" className="text-dark">
-                  Article 2
+                  Vendre ses produits sur le web
                 </a>
               </li>
               <li>
                 <a href="/blog#article3" className="text-dark">
-                  Article 3
+                  Se positionner sur Google
                 </a>
               </li>
             </ul>

@@ -1,11 +1,22 @@
 /* *//*Element de Portfolio *//* */
 
 .ContenairCardPortefolio {
-
-    /* Pour les écrans de moins de 768px */
-    @media (max-width: 768px) {
-      flex-direction:column;
-      align-items: center; /* Passe  en dessous de 768px */
-    }
+  /* Pour les écrans de moins de 768px */
+  @media (max-width: 768px) {
+  flex-direction:column;
+  align-items: center; /* Passe  en dessous de 768px */
   }
-    
+}
+
+.card-footer {
+  font-size: 0.8rem;
+  color: #444  ;
+  background-color: #EEE;
+}
+
+.ButtonPortfolio {
+  background-color: white;
+  color: #0d6efd ;
+  text-align: center;
+  /* cursor: pointer; */
+}

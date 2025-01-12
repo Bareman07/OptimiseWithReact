@@ -1,3 +1,6 @@
+import BienEtre from '../assets/img/BienEtre.jpeg'; 
+import FreshFood from '../assets/img/FreshFood.jpeg'; 
+import AkiraRestaurant from '../assets/img/AkiraRestaurant.jpeg'; 
 import './Portfolio.css';
 
 // Page présentant les réalisations
@@ -14,72 +17,72 @@ const Portfolio = () => {
         <div className="card mx-3 my-3" style={{ width: "18rem", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)" }}>
           {/* Image de la carte */}
           <img
-          src={ "https://via.placeholder.com/150" }
-          className="card-img-top"
-          alt="Image illustrant l'article"
-          style={{ objectFit: "cover", height: "150px" }}
+            src={FreshFood}
+            className="card-img-top"
+            alt="Legumes frais"
+            style={{ objectFit: "cover", height: "150px" }}
           />
           {/* Contenu de la carte */}
-          <div className="card-body">
-            <h5 className="card-title" style={{ fontWeight: "bold", fontSize: "1.25rem" }}>Coder son site en HTML/CSS</h5>
-            <p className="card-text" style={{ fontSize: "0.9rem", color: "#555" }}>
+          <div className="card-body d-flex flex-column align-items-center card-body">
+            <h5 className="text-center card-title" style={{ fontWeight: "bold", fontSize: "1.25rem" }}>Fresh food</h5>
+            <p className="text-center card-text" style={{ fontSize: "0.9rem", color: "#555" }}>
               Apprenez à coder votre site web en utilisant les bases du HTML et CSS.
             </p>
-            <a href="#" className="btn btn-primary" style={{ backgroundColor: "#007BFF" }}>
-              Lire la suite
+            <a href="#" className="ButtonPortfolio btn btn-primary d-flex align-items-center justify-content-center">
+              Voir
             </a>
           </div>
           {/* Footer de la carte */}
-          <div className="card-footer text-muted" style={{ fontSize: "0.8rem", backgroundColor: "#f8f9fa" }}>
-            Publié le 22 août 2022
+          <div className="d-flex justify-content-center text-center card-footer text-muted" >
+            Site réalisé avec PHP et MSQL
           </div>
         </div>
         {/* Carte 2 */}
         <div className="card mx-3 my-3" style={{ width: "18rem", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)" }}>
           {/* Image de la carte */}
           <img
-          src={ "https://via.placeholder.com/150" }
+          src={AkiraRestaurant}
           className="card-img-top"
           alt="Image illustrant l'article"
           style={{ objectFit: "cover", height: "150px" }}
           />
           {/* Contenu de la carte */}
-          <div className="card-body">
-            <h5 className="card-title" style={{ fontWeight: "bold", fontSize: "1.25rem" }}>Coder son site en HTML/CSS</h5>
-            <p className="card-text" style={{ fontSize: "0.9rem", color: "#555" }}>
+          <div className="card-body d-flex flex-column align-items-center card-body">
+            <h5 className="text-center card-title" style={{ fontWeight: "bold", fontSize: "1.25rem" }}>Restaurant Akira</h5>
+            <p className="text-center card-text" style={{ fontSize: "0.9rem", color: "#555" }}>
               Apprenez à coder votre site web en utilisant les bases du HTML et CSS.
             </p>
-            <a href="#" className="btn btn-primary" style={{ backgroundColor: "#007BFF" }}>
-              Lire la suite
+            <a href="#" className="ButtonPortfolio btn btn-primary d-flex align-items-center justify-content-center">
+              Voir
             </a>
           </div>
           {/* Footer de la carte */}
-          <div className="card-footer text-muted" style={{ fontSize: "0.8rem", backgroundColor: "#f8f9fa" }}>
-            Publié le 22 août 2022
+          <div className="d-flex justify-content-center text-center card-footer text-muted" >
+            Site réalisé avec WorldPress
           </div>
         </div>
         {/* Carte 3 */}
         <div className="card mx-3 my-3" style={{ width: "18rem", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)" }}>
           {/* Image de la carte */}
           <img
-          src={ "https://via.placeholder.com/150" }
+          src={BienEtre}
           className="card-img-top"
           alt="Image illustrant l'article"
           style={{ objectFit: "cover", height: "150px" }}
           />
           {/* Contenu de la carte */}
-          <div className="card-body">
-            <h5 className="card-title" style={{ fontWeight: "bold", fontSize: "1.25rem" }}>Coder son site en HTML/CSS</h5>
-            <p className="card-text" style={{ fontSize: "0.9rem", color: "#555" }}>
+          <div className="card-body d-flex flex-column align-items-center card-body">
+            <h5 className="text-center card-title" style={{ fontWeight: "bold", fontSize: "1.25rem" }}>Esapce bien-être</h5>
+            <p className="text-center card-text" style={{ fontSize: "0.9rem", color: "#555" }}>
               Apprenez à coder votre site web en utilisant les bases du HTML et CSS.
             </p>
-            <a href="#" className="btn btn-primary" style={{ backgroundColor: "#007BFF" }}>
-              Lire la suite
+            <a href="#" className="ButtonPortfolio btn btn-primary d-flex align-items-center justify-content-center">
+              Voir
             </a>
           </div>
           {/* Footer de la carte */}
-          <div className="card-footer text-muted" style={{ fontSize: "0.8rem", backgroundColor: "#f8f9fa" }}>
-            Publié le 22 août 2022
+          <div className="d-flex justify-content-center text-center card-footer text-muted" >
+            Site réalisé en HTML/CSS
           </div>
         </div>
       </div>
