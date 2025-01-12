@@ -13,7 +13,7 @@ import Portfolio from './pages/Portfolio'; // Page Réalisations
 import Blog from './pages/Blog'; // Page Blog
 import Contact from './pages/Contact'; // Page Contact
 import MentionLegales from './pages/MentionLegales'; // Page Mentions Légales
-import Profile from './pages/Profile'; // Page Profile
+import Profil from './pages/Profil'; // Page Profil
 
 // Importation du fichier CSS pour appliquer les styles au composant
 import './App.css';
@@ -35,7 +35,7 @@ const App = () => {
         <Route path="/blog" element={<Blog />} /> {/* Route pour la page Blog */}
         <Route path="/contact" element={<Contact />} /> {/* Route pour la page Contact */}
         <Route path="/mention-legales" element={<MentionLegales />} /> {/* Route pour la page Mentions Légales */}
-        <Route path="/profile" element={<Profile />} /> {/* Route pour la page Profile */}
+        <Route path="/profil" element={<Profil />} /> {/* Route pour la page Profil */}
       </Routes>
 
       {/* Footer : présent sur toutes les pages */}

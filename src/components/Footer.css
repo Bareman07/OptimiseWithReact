@@ -26,6 +26,11 @@ footer {
     background-color: #EEE ; /* Fond clair */
 }
 
+.FaviconFooter {
+    color: #000;
+    font-size: 30px; /* Ajustez la taille selon vos besoins */
+}
+
 /* Style des puces */
 footer ul.list-unstyled > li {
   position: relative;

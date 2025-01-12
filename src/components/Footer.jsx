@@ -1,6 +1,5 @@
-import github from '../assets/img/github.png'; // Importation de l'image
-import twitter from '../assets/img/twitter.png';
-import linkedin from '../assets/img/linkedin.png';
+import { NavLink } from "react-router-dom"; // Importation de la fonction de routage
+import '@fortawesome/fontawesome-free/css/all.min.css'; // importation de Font Awesome pour les icônes
 import './Footer.css';
 
 
@@ -21,18 +20,18 @@ const Footer = () => {
             {/* Icônes vers les réseaux sociaux */}
             <div style={{ display: 'flex', justifyContent: 'flex-start', gap: '12px', margin: '1em 12px 1em 12px' }}>
               {/* Lien vers GitHub avec icône */}
-              <a href="https://github.com/github-john-doe" target="_blank" rel="noreferrer">
-                <img src={github} alt="Favicon" style={{ width: '30px', height: '30px' }} /> {/* GitHub */}
-              </a>
+              <NavLink to="/Profil">
+                <i className="FaviconFooter fa-brands fa-github"></i> {/* GitHub */}
+              </NavLink>
               <br />
               {/* Lien vers Twitter avec icône */}
               <a href="https://twitter.com/johndoe" target="_blank" rel="noreferrer">
-                <img src={twitter} alt="Favicon" style={{ width: '30px', height: '30px' }} /> {/* Twitter */}
+                <i className="FaviconFooter fa-brands fa-square-twitter"></i> {/* Twitter */}
               </a>
               <br />
               {/* Lien vers LinkedIn avec icône */}
               <a href="https://linkedin.com/in/johndoe" target="_blank" rel="noreferrer">
-                <img src={linkedin} alt="Favicon" style={{ width: '30px', height: '30px' }} /> {/* LinkedIn */}
+                <i className="FaviconFooter fa-brands fa-linkedin"></i> {/* LinkedIn */}
               </a>
             </div>
           </div>

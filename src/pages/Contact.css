@@ -1,7 +1,18 @@
+/*fond pour le blog*/
+.mainBlog {
+  background: linear-gradient(rgba(0, 105, 255, 0.5), rgba(0, 105, 255, 0.5)), 
+              url('../assets/img/backgroundContact.png') no-repeat center center;
+  background-size: cover; /* Ajuste l'image pour qu'elle couvre toute la section */
+  /* color: white;*/ /*Change la couleur du texte pour un meilleur contraste */
+  padding: 60px 20px; /* Ajoute un padding pour espacer le contenu */
+}
+
 /* Conteneur principal */
-.container {
-  padding-top: 60px; /* Ajout d'un padding pour éviter que le h1 soit caché sous le header */
-  padding-bottom: 60px; /* Ajout d'un padding pour éviter que la carte dépasse sur le footer */
+.containerBlog {
+  background-color: white;
+  padding-top: 50px; /* Ajout d'un padding pour éviter que le h1 soit caché sous le header */
+  padding-bottom: 50px; /* Ajout d'un padding pour éviter que la carte dépasse sur le footer */
+  border-radius: 20px; /* Arrondit les coins du conteneur */
 }
 
 /* Titre principal */

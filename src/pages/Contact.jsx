@@ -3,9 +3,9 @@ import './Contact.css';
 // Page de contact avec un formulaire et une section pour les coordonnées
 const Contact = () => {
   return (
-    <main className="d-flex justify-content-center align-items-center vh-100">
+    <main className="mainBlog d-flex justify-content-center align-items-center vh-100">
       {/* Conteneur principal */}
-      <div className="container">
+      <div className="containerBlog container">
         <div className="row">
           <div className="d-flex justify-content-center">
             {/* Titre principal */}
