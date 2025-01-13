@@ -4,6 +4,8 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 // Importation du fichier CSS de Bootstrap pour ajouter des styles par défaut pour les composants de l'application
 import 'bootstrap/dist/css/bootstrap.min.css';
+// Importation du fichier JS de Bootstrap pour activer les fonctionnalités JavaScript des composants Bootstrap
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 // Importation du fichier CSS personnalisé pour ajouter des styles spécifiques à l'application
 import './index.css';
 // Importation du composant principal App à partir du fichier App.jsx
