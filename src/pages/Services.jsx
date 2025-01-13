@@ -18,8 +18,8 @@ const Services = () => {
       <div className="ContenairServices d-flex justify-content-center"r style={{ width: '100%' }}>
         <div className="d-flex flex-column justify-content-center align-items-center card mx-4 my-4" style={{ height: '20rem' ,width: '20rem' }}>
             {/* UX design */}
-            <i className="FaviconFonta fa-solid fa-display fs-2 my-2"></i>
-            <h2>UX DESIGN</h2>
+            <i className="text-center FaviconFonta fa-solid fa-display fs-2 my-2"></i>
+            <h2 className="h2Services ">UX DESIGN</h2>
             <div className="d-flex flex-column justify-content-center align-items-center">
               <p className="mx-3 text-center">
               Lorem <strong>ipsum odor</strong> amet, consectetuer adipiscing elit. Torquent ullamcorper in lacinia vulputate cras senectus porta.
@@ -27,9 +27,9 @@ const Services = () => {
             </div>
         </div>
         <div className="d-flex flex-column justify-content-center align-items-center card mx-4 my-4" style={{ height: '20rem' ,width: '20rem' }}>
-            {/* UX design */}
-            <i className="FaviconFonta fa-solid fa-file-code fs-2 my-2"></i>
-            <h2>DÉVELOPPEMENT WEB</h2>
+            {/* DÉVELOPPEMENT WEB */}
+            <i className="text-center FaviconFonta fa-solid fa-file-code fs-2 my-2"></i>
+            <h2 className="h2Services ">DÉVELOPPEMENT WEB</h2>
             <div className="d-flex flex-column justify-content-center align-items-center">
               <p className="mx-3 text-center">
               Lorem <strong>ipsum odor</strong> amet, consectetuer adipiscing elit. Torquent ullamcorper in lacinia vulputate cras senectus porta.
@@ -37,9 +37,9 @@ const Services = () => {
             </div>
         </div>
         <div className="d-flex flex-column justify-content-center align-items-center card mx-4 my-4" style={{ height: '20rem' ,width: '20rem' }}>
-            {/* Image de la card3 */}
+            {/* RÉFÉRENCEMENT */}
             <i className="FaviconFonta fa-solid fa-magnifying-glass-dollar fs-2 my-2"></i>
-            <h2>RÉFÉRENCEMENT</h2>
+            <h2 className="h2Services ">RÉFÉRENCEMENT</h2>
             <div className="d-flex flex-column justify-content-center align-items-center">
               <p className="mx-3 text-center">
               Lorem <strong>ipsum odor</strong> amet, consectetuer adipiscing elit. Torquent ullamcorper in lacinia vulputate cras senectus porta.

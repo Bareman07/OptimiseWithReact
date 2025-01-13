@@ -1,13 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz@0,6..12;1,6..12&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,600;1,6..12,600&display=swap');
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+strong {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600; /* Utilise la variante avec poids 600 */
+  font-size: 1.1em
+}
+
 h1 {
     font-size: 4em;
     line-height: 1.1;
   }
-
-h2 {
-    font-size: 2.5em;
-    line-height: 1.1;
-  }
   
+  h2 {
+    font-size: 2.2em;
+    line-height: 1.1;
+    font-weight: bold;
+  }
+
 /* *//*Element de Home*//* */
 .responsive-width {
   width: 50%; /* Par défaut, largeur à 50% */

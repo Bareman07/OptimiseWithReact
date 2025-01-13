@@ -46,3 +46,9 @@ footer ul.list-unstyled > li:before {
   font-weight: bold;
   font-size: 1.2em; /* Taille de la flèche */
 }
+
+/* Changement de couleur au survol */
+.copyright a:hover {
+  background-color: #298eff; /* Fond bleu clair */
+  color: #fff; /* Couleur du texte en blanc */
+}

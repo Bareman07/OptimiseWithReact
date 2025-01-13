@@ -6,10 +6,10 @@ h1 {
 
 .ContenairBlog {
 
-    /* Pour les écrans de moins de 768px */
-    @media (max-width: 768px) {
-      flex-direction:column;
-      align-items: center; /* Passe  en dessous de 768px */
-    }
+  /* Pour les écrans de moins de 768px */
+  @media (max-width: 768px) {
+    flex-direction:column;
+    align-items: center; /* Passe  en dessous de 768px */
   }
+}
   

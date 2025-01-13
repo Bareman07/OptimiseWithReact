@@ -1,4 +1,5 @@
 import './Contact.css';
+import '@fortawesome/fontawesome-free/css/all.min.css'; // importation de Font Awesome pour les icônes
 
 // Page de contact avec un formulaire et une section pour les coordonnées
 const Contact = () => {
@@ -9,9 +10,9 @@ const Contact = () => {
         <div className="row">
           <div className="d-flex justify-content-center">
             {/* Titre principal */}
-            <h1 className="mb-4">Me Contacter</h1>
+            <h1 className="mb-2">Me Contacter</h1>
           </div>
-          <p className="d-flex justify-content-center mb-4">Vous avez une question ou une suggestion ? Contactez-moi via ce formulaire !</p>
+          <p className="d-flex justify-content-center mb-3">Vous avez une question ou une suggestion ? Contactez-moi via ce formulaire !</p>
           <div className='d-flex justify-content-center w-100'>
             <div className="LigneBleu w-25 pb-5"></div>
           </div>
@@ -76,9 +77,8 @@ const Contact = () => {
             {/* Coordonnées */}
             <div className="w-100">
               <ul className="list-unstyled text-start">
-                <li><strong>Adresse :</strong> 123 Rue Exemple, 75000 Paris</li>
-                <li><strong>Téléphone :</strong> +33 6 12 34 56 78</li>
-                <li><strong>Email :</strong> contact@example.com</li>
+                <li><i className="fa-solid fa-location-dot"></i> 123 Rue Exemple, 75000 Paris</li>
+                <li><i className="fa-solid fa-mobile-screen-button"></i> +33 6 12 34 56 78</li>
               </ul>
             </div>
 

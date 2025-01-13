@@ -1,6 +1,6 @@
 /* *//*Element de Blog *//* */
 .ContenairBlog {
-
+    width: 100%;
     /* Pour les écrans de moins de 768px */
     @media (max-width: 768px) {
       flex-direction:column;

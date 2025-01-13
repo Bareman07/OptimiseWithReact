@@ -16,7 +16,7 @@ const Blog = () => {
       {/* Texte décrivant le contenu du Blog */}
       <p>Bienvenue sur mon blog. Découvrez mes articles sur le développement web et les technologies modernes.</p>
       {/* Conteneur flex pour centrer les cartes */}
-      <div className="ContenairBlog d-flex justify-content-center"r style={{ width: '100%' }}>
+      <div className="ContenairBlog d-flex justify-content-center">
         {/* Carte 1 */}
         <div className="card mx-3 my-3" style={{ width: "18rem", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)" }}>
           {/* Image de la carte */}
@@ -90,7 +90,7 @@ const Blog = () => {
           </div>
         </div>
       </div>
-      <div className="ContenairBlog d-flex justify-content-center"r style={{ width: '100%' }}>
+      <div className="ContenairBlog d-flex justify-content-center">
         {/* Carte 4 */}
         <div className="card mx-3 my-3" style={{ width: "18rem", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)" }}>
           {/* Image de la carte */}

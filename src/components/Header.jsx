@@ -1,6 +1,5 @@
 // Importation des styles Bootstrap
 // Pas besoin d'importer React à partir de React 17 si non utilisé directement
-import favicon from '../assets/img/Favicon.png'; // Importation de l'image
 import { NavLink } from "react-router-dom";
 import { Link } from 'react-router-dom'; // Importation de la fonction de routage
 import './Header.css';
@@ -16,7 +15,6 @@ const Header = () => {
         <div className="container-fluid">
           {/* Logo ou nom de la marque qui renvoie à la page d'accueil */}
           <Link className="navbar-brand me-3" to="/">
-            <img src={favicon} alt="Favicon" style={{ width: '30px', height: '30px' }} />
             John Doe
           </Link>
 

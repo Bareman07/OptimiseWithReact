@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="row">
           {/* Colonne 1 : informations de contact avec icônes vers les réseaux sociaux */}
           <div className="col-md-3">
-            <h4>John Doe</h4>
+            <h4><strong>John Doe</strong></h4>
             <p>
               123 rue de Paris<br />
               75000 Paris<br />
@@ -38,7 +38,7 @@ const Footer = () => {
 
           {/* Colonne 2 : liens vers les pages principales */}
           <div className="col-md-3">
-            <h4>Liens Utiles</h4>
+            <h4><strong>Liens Utiles</strong></h4>
             {/* Liste de liens vers les pages principales */}
             <ul className="list-unstyled">
               <li>
@@ -71,7 +71,7 @@ const Footer = () => {
 
           {/* Colonne 3 : réalisations récentes */}
           <div className="col-md-3">
-            <h4>Mes Dernières Réalisations</h4>
+            <h4><strong>Mes Dernières Réalisations</strong></h4>
             {/* Liste des réalisations avec liens vers chaque projet */}
             <ul className="list-unstyled">
               <li>
@@ -86,7 +86,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="/portfolio#project3" className="text-dark">
-                  Esapce bien-être
+                  Espace bien-être
                 </a>
               </li>
             </ul>
@@ -94,7 +94,7 @@ const Footer = () => {
 
           {/* Colonne 4 : derniers articles */}
           <div className="col-md-3">
-            <h4>Mes Derniers Articles</h4>
+            <h4><strong>Mes Derniers Articles</strong></h4>
             {/* Liste des articles récents avec liens vers chaque article */}
             <ul className="list-unstyled">
               <li>

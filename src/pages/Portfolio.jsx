@@ -72,7 +72,7 @@ const Portfolio = () => {
           />
           {/* Contenu de la carte */}
           <div className="card-body d-flex flex-column align-items-center card-body">
-            <h5 className="text-center card-title" style={{ fontWeight: "bold", fontSize: "1.25rem" }}>Esapce bien-être</h5>
+            <h5 className="text-center card-title" style={{ fontWeight: "bold", fontSize: "1.25rem" }}>Espace bien-être</h5>
             <p className="text-center card-text" style={{ fontSize: "0.9rem", color: "#555" }}>
               Apprenez à coder votre site web en utilisant les bases du HTML et CSS.
             </p>

@@ -43,7 +43,7 @@ const Home = () => {
                     <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Senectus tortor quam odio feugiat nibh, aptent libero hendrerit? Convallis nascetur inceptos torquent bibendum donec risus. Conubia facilisis vivamus ipsum ipsum efficitur penatibus lacinia. Est eros litora malesuada purus consequat eros.</p>
                 </div>
                 <div className="CompetenceSection d-flex align-items-center flex-column responsive-width" >  {/* partie de droite */}
-                    <div style={{
+                    <div className="BackgroundDiv"style={{
                         backgroundImage: `url(${Bureau})`,
                         backgroundPosition: "center", // Centre l'image
                         backgroundRepeat: "no-repeat", // Empêche la répétition
@@ -51,9 +51,10 @@ const Home = () => {
                         height: "30em",
                         width: "100%"
                         }}>
-                    </div>   
-                    <h2>Mes Compétences</h2>
-
+                    </div>
+                    <div className="ms-5" style={{width:"100%"}}> {/* Container compétence */}
+                        <h2>Mes Compétences</h2>
+                    </div>
                     {/* Barre de progression 1 */}
                     <div className="BarProgression bar-container mb-3">
                         <label>Compétence 1</label>

@@ -3,16 +3,24 @@
 
     /* Pour les écrans de moins de 768px */
     @media (max-width: 768px) {
-      flex-direction:column;
-      align-items: center; /* Passe  en dessous de 768px */
+      display: flex; /* Assure que le conteneur est en flexbox */
+      flex-direction: column; /* Organise les éléments en colonne */
+      align-items: center; /* Centre les éléments sur l'axe principal */
+      text-align: center; /* Centre le texte */
     }
   }
 
-h2 {
+  .h2Services {
     font-size: 1.6em;
     line-height: 1.1;
-}
+    font-weight: bold;
+  }
 
 .FaviconFonta {
     color: #0d6efd;
+}
+
+.FaviconFonta:hover {
+  color: #cde1f8; /* Change la couleur de l'icône au survol */
+  transition: color 0.3s ease; /* Ajoute une animation pour un effet fluide */
 }
