@@ -44,9 +44,10 @@ form {
 /* Pour les écrans de moins de 768px */
 @media (max-width: 768px) {
   .container {
-    margin-top: 400px; /* Ajustement de la marge supérieure pour les petits écrans */
+    margin-top: 500px; /* Ajustement de la marge supérieure pour les petits écrans */
     padding-top: 20px; /* Ajustement du padding pour les petits écrans */
-    padding-bottom: 20px; /* Ajustement du padding pour les petits écrans */
+    padding-bottom: 40px; /* Ajustement du padding pour les petits écrans */
+    margin-bottom: 20px; /* Ajustement de la marge inférieure pour les petits écrans */
   }
 
   .col-12.col-md-6 {
