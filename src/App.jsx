@@ -22,7 +22,7 @@ import './App.css';
 const App = () => {
   return (
     // Enveloppe l'application dans un Router pour gérer les routes
-    <Router>
+    <Router basename="/OptimiseWithReact">
       {/* Header : présent sur toutes les pages */}
       <Header />
 

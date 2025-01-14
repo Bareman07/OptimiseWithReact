@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom"; // Importation de la fonction de routage
+import { Link } from 'react-router-dom'; // Importation de la fonction de routage
 import '@fortawesome/fontawesome-free/css/all.min.css'; // importation de Font Awesome pour les icônes
 import './Footer.css';
 
@@ -42,29 +43,29 @@ const Footer = () => {
             {/* Liste de liens vers les pages principales */}
             <ul className="list-unstyled">
               <li>
-                <a href="/" className="text-dark">
+                <Link to="/" className="text-dark">
                   Accueil
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/Blog" className="text-dark">
+                <Link to="/Blog" className="text-dark">
                   Blog
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/services" className="text-dark">
+                <Link to="/services" className="text-dark">
                   Services
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contact" className="text-dark">
+                <Link to="/contact" className="text-dark">
                   Me contacter
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/mention-legales" className="text-dark">
+                <Link to="/mention-legales" className="text-dark">
                   Mentions Légales
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -75,19 +76,19 @@ const Footer = () => {
             {/* Liste des réalisations avec liens vers chaque projet */}
             <ul className="list-unstyled">
               <li>
-                <a href="/portfolio#project1" className="text-dark">
+                <Link to="/portfolio#project1" className="text-dark">
                   Fresh food
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/portfolio#project2" className="text-dark">
+                <Link to="/portfolio#project2" className="text-dark">
                   Restaurant Akira
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/portfolio#project3" className="text-dark">
+                <Link to="/portfolio#project3" className="text-dark">
                   Espace bien-être
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -98,19 +99,19 @@ const Footer = () => {
             {/* Liste des articles récents avec liens vers chaque article */}
             <ul className="list-unstyled">
               <li>
-                <a href="/blog#article1" className="text-dark">
+                <Link to="/blog#article1" className="text-dark">
                   Coder son site en HTML/CSS
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/blog#article2" className="text-dark">
+                <Link to="/blog#article2" className="text-dark">
                   Vendre ses produits sur le web
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/blog#article3" className="text-dark">
+                <Link to="/blog#article3" className="text-dark">
                   Se positionner sur Google
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
